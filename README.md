@@ -1,4 +1,4 @@
-This is a simple Todo App, it has basic functionality like add a task, edit a task, delete a task, mark as complete a task.  
+This is a simple Todo App, it has basic functionality like add a task, edit a task, delete a task, mark as complete a task. It is created using react.
 
 # Getting Started with Create React App
 
