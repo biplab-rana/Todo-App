@@ -1,0 +1,75 @@
+.taskBox {
+  width: 94%;
+  margin: auto;
+  max-height: 55vh;
+  padding: 2px;
+  background-color: #b9ecf1;
+  box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px 0px 0px 15px;
+  overflow-y: scroll;
+}
+.taskBox:hover {
+  box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s;
+}
+.task {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #eafdff;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  font-size: 0.8rem;
+  color: black;
+  transition: box-shadow 0.3s;
+  border-radius: 10px 2px 10px 2px;
+}
+
+.task h5 {
+  margin: 0%;
+  text-align: left;
+  padding: 1px;
+}
+
+.task:hover {
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
+}
+.task .icons {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #666;
+  transition: color 0.3s;
+  padding-right: 10px;
+}
+
+.task .icons:hover {
+  color: #004552;
+  transform: scale(1.05);
+  transition: transform 0.1s;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #e3fbfd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #75a4af;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  width: 12px;
+  height: 12px;
+  background-color: #4d838d;
+}

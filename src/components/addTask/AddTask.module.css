@@ -1,0 +1,72 @@
+.taskContainer {
+  width: 94%;
+  height: 20vh;
+  background-color: #b4ebf1;
+  margin: auto;
+  box-shadow: 0px 6px 14px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 15px;
+}
+.taskContainer:hover {
+  box-shadow: -2px -2px 15px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+}
+
+.taskContainer form {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskContainer form label {
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: black;
+  transition: 0.3s, transform 0.3s;
+}
+
+.taskContainer form input {
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  border: none;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.taskContainer form input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.4s;
+}
+
+.taskContainer form button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #c5f6ff;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: -1px 3px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.taskContainer form button:hover {
+  background-color: #8fd3ee;
+  box-shadow: 5px 2px 5px 5px;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
