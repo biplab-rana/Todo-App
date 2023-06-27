@@ -1,12 +1,4 @@
-This is a simple TODO App using react which performs functions such as:
-Adding a task
-Editing a task
-Deleting a task
-Saving a task
-And Mark as completed to any task
-
-Tech Stack used
-React
+This is a simple Todo App, it has basic functionality like add a task, edit a task, delete a task, mark as complete a task. It is created using react.
 
 # Getting Started with Create React App
 
